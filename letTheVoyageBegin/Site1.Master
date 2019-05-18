@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="projectDB.Site1" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <title>Home</title>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no"/>
+        <link rel="icon" href="images/voyagelogo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/camera.css"/>
+        <link rel="stylesheet" href="css/owl.carousel.css"/>
+        <link href="css/font-awesome.css" rel="stylesheet" />
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-migrate-1.2.1.js"></script>
+        <script src="js/jquery.equalheights.js"></script>
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <script src="js/jquery.mobile.customized.min.js"></script>
+        <!--<![endif]-->
+        <script src="js/camera.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <!--[if lt IE 9]>
+        <div style=' clear: both; text-align:center; position: relative;'>
+            <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+            <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"
+                height="42" width="820"
+                alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+            </a>
+        </div>
+        <script src="js/html5shiv.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+        <![endif]-->    
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <header id="header">
+                <div id="stuck_container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="grid_12">
+                                <div class="brand put-left">
+                                    <h1>
+                                        <a href="Home.aspx">
+                                            
+                                            <img src="images/voyagelogo.png" alt="logo" />
+                                        </a>
+                                    </h1>
+                                </div>
+                                <nav class="nav put-right">
+                                    <ul class="sf-menu">
+                            <li class="current"><a href="Home.aspx">Home</a></li>
+                            <li><a href="#">Events</a>
+                            <li><a href="Categories.aspx">Categories</a>
+                                    <ul>
+                                        <li><a href="#">Fiction</a>
+                                        <li><a href="#">Politics</a>
+                                        <li><a href="#">Travelogues</a>
+                                        <li><a href="#">Biographies</a>
+                                        <li><a href="#">Kids Fiction</a>
+                                        <li><a href="#">Horror</a>
+                                        <li><a href="#">Adventure</a>
+                                        <li><a href="#">View More...</a>
+                                    <ul>
+                                </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <%--<div id="searchbox">
+                <span>SEARCH </span>
+                <asp:TextBox ID="textbox1" runat="server"></asp:TextBox>
+                <a href="#" class="btn_2">Go</a>
+            </div>--%>
+            
+
+<footer id="footer" class="color_9">
+                <div class="container">
+    <div class="row wrap_9">
+        <div class="grid_12a">
+            <div class="header_1 wrap_3 color_3">
+                <br />
+                <p class="info color_1">CONTACT US!</p>
+            </div>
+            <div class="box_3">
+                <ul class="list_1">
+                    <li><a href="https://twitter.com/" class="fa fa-twitter" ></a></li>
+                    <li><a href="https://www.facebook.com/" class="fa fa-facebook" ></a></li>
+                    <li><a href="https://www.google.com.pk/" class="fa fa-google-plus" ></a></li>
+                    <li><a href="https://www.pinterest.com/" class="fa fa-pinterest" ></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="grid_12a">
+            <p class="info text_4 color_1">
+                <ul class="info text_4 color_1" >
+                    <li>Anum Shahbaz </li>
+
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
+
+</footer>
+            <script src="js/script.js"></script>    
+        </form>
+    </body>
+</html>
